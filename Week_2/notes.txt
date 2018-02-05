@@ -1,0 +1,8 @@
+Five important considerations for wire framing
+
+
+1. Make sure you understand the problem. You can do this by asking questions about the project.
+2. It’s important to have sketches and workflows with stakeholders.
+3. Share and talk about the project so you can get feedback. 
+4. Know the tools and software applications to help build templates and designs.
+5. Know the audience so you can tailor the fidelity(High versus low).
