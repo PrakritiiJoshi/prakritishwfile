@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Playball');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+
+
+
+html,
+
+header{
+	background-color: white;
+}
+
+ul {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	margin-top: 0;
+	margin-bottom: 0
+
+}
+
+li {
+	float: left;
+	display: inline-block;
+	  margin: 0;
+ 	padding: 0;
+ 	background-color: white;
+
+}
+
+li a {
+	top:0;
+	display: inline-block;
+	color: #353535;
+	text-align: center;
+	padding: 20px 24px;
+	text-decoration: none;
+	 background-color: white;
+}
+
+li a:hover {
+	background-color: #eae0d5;
+
+}
+
+h1 {	
+    color: white;
+  background-color: #353535;
+  clear: left;
+  text-align: center;
+  background-position: top;
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 85px;
+  margin-top: 0;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Playball', cursive;
+	font-size: 55px;
+
+
+}
+
+.coffeshop {
+	display: block;
+    margin-left: 7%;
+    margin-right: auto;
+}
+
+
+.coffeshop img:hover {
+    transform: scale(1.6);
+}
+
+
+<!-- Display the map -->
+<div id="map"></div>
+
+<!-- Google Maps Script -->
+<script>
+function myMap() {
+    var mapCanvas = document.getElementById("map");
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.2),
+        zoom:60
+    };
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeSUMJS5OkBddPYTBa10SjPI9pVHVIoPI&callback=myMap"></script>
+
+
